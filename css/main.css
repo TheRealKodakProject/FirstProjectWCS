@@ -46,7 +46,7 @@
 
 .background_1 {
     height: 450px;
-    background: url("/img/eiffel-tower-bg.jpg") no-repeat center fixed;
+    background: url("../img/eiffel-tower-bg.jpg") no-repeat center fixed;
 }
 
 .about_me {
@@ -56,5 +56,5 @@
 
 .background_2 {
     height: 450px;
-    background: url("/img/moderne3.jpg") no-repeat center fixed;
+    background: url("../img/moderne3.jpg") no-repeat center fixed;
 }
