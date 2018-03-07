@@ -1,0 +1,11 @@
+.img-thb , .img-thb-main {
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
