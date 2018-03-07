@@ -1,0 +1,113 @@
+
+/***************** HEADER STYLE *****************/
+
+
+
+/* General - Fixed position */
+#kodakMenu{
+	position: fixed;
+	width: 100%;
+	top:0;
+	background-color: #252525;
+	display: block;
+	height: 60px;
+	padding-left: 0px;
+	z-index: 20;
+}
+
+/* Logo */
+#kodakLogo{
+	position: absolute;
+	line-height: 60px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 4vh;
+}
+
+#kodakLogo a{
+	color: #F9F8F6;
+}
+
+#kodakLogo a:hover{
+	text-decoration:none;
+}
+
+/* Navigation - open btn */
+.openBtn{
+	font-size: 30px;
+	cursor: pointer;
+	position: absolute;
+	top:0;
+	right:0;
+	margin-right: 15px;
+	line-height:60px;
+	color: #F9F8F6;
+}
+
+.openBtn:hover{
+	text-decoration: none;
+	color: #F9F8F6;
+}
+
+/* Navigation - menu */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #252525;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay>a{
+	padding-top: -15px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #F9F8F6;
+    display: block;
+    transition: 0.3s;
+		font-family: 'Didact Gothic', sans-serif;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #FAE0AC;
+}
+
+/* Navigation - close btn */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay .closebtn:hover{
+	color: #F9F8F6;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/***************** END OF HEADER STYLE *****************/
