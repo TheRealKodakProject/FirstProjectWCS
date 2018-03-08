@@ -29,6 +29,10 @@
 
 /* Css Edouard : Citation / Background / About Me */
 
+h2{
+    border-bottom: solid 2px #ff0000;
+}
+
 .citation {
     text-align: center;
     padding-top: 100px;
@@ -54,6 +58,11 @@
     padding-bottom: 100px;
 }
 
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
 .background_2 {
     height: 450px;
     background: url("../img/historique6.jpg") no-repeat center fixed;
@@ -64,6 +73,10 @@
 .formulaire{
     padding-top: 50px;
     padding-bottom: 70px;
+}
+
+.form{
+    padding-top: 20px;
 }
 
 .btn{
