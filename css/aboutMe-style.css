@@ -1,25 +1,6 @@
-body{
-  box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-align: justify;
-  line-height: 1.7;
-}
+/***************** ABOUT ME STYLE *****************/
 
-h1{
-  text-align: center;
-  margin-top: 10vh;
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 36px;
-}
-
-h2{
-  text-align: center;
-  font-family: 'Didact Gothic', sans-serif;
-
-}
-
+/* Mosaiq template */
 hr{
   width: 75px;
   height: 1px;
@@ -56,6 +37,7 @@ hr{
 }
 
 
+/* Orange banner style */
 .orangeBanner{
   background-color:#FAE0AC;
   padding: 50px;
@@ -86,3 +68,5 @@ hr{
       background-color: #FAE0AC;
   }
 }
+
+/***************** END OF ABOUT ME STYLE *****************/
