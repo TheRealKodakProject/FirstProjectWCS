@@ -22,31 +22,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/header-style.css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
-    
+
 </head>
 
 <body>
     <header>
-            <div id="kodakMenu">
-                    <div id="kodakLogo">
-                        <a href="#">KodaK</a>
-                    </div>
-                    <div id="kodakBurger">
-                        <a href="#" title="Burger button" class="openBtn" onclick="openNav()">&#9776;</span>
-                    </div>
-                    <div id="kodakNav" class="overlay">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div class="overlay-content">
-                            <a href="index.html">HOME</a>
-                            <a href="aboutMe.html">ABOUT ME</a>
-                            <a href="gallery.html">GALLERY</a>
-                            <a href="#contact-me">CONTACT</a>
-                        </div>
-                    </div>
+        <div id="kodakMenu">
+            <div id="kodakLogo">
+                <a href="#">KodaK</a>
+            </div>
+            <div id="kodakBurger">
+                <a href="#" title="Burger button" class="openBtn" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="kodakNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="aboutMe.html">ABOUT ME</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="#contact-me">CONTACT</a>
                 </div>
+            </div>
+        </div>
     </header>
     <div class="container-fluid">
-        <h1>Gallery</h1>
+        <h1 id="Old">Gallery</h1>
         <h2>The Old Paris</h2>
         <hr>
         <div class="row">
@@ -121,7 +121,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <h2>The New Paris</h2>
+        <h2 id="New">The New Paris</h2>
         <hr>
         <div class="col-md-6 col-xs-12">
             <div class="row">
@@ -195,7 +195,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <h2>The Green Paris</h2>
+        <h2 id="Green">The Green Paris</h2>
         <hr>
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
@@ -269,7 +269,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <h2>The Unusual</h2>
+        <h2 id="Unusual">The Unusual</h2>
         <hr>
         <div class="col-md-6 col-xs-12">
             <div class="row">
