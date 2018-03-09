@@ -1,6 +1,31 @@
+/***************** GENERAL STYLE *****************/
+
+body{
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+h1{
+  text-align: center;
+  margin-top: 10vh;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 36px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+
+}
+
+/***************** END OF GENERAL STYLE *****************/
+
+
 /***************** HEADER STYLE *****************/
-
-
 
 /* General - Fixed position */
 #kodakMenu{
@@ -109,4 +134,59 @@
   }
 }
 
+/***************** END OF HEADER STYLE *****************/
+
+
+/***************** FOOTER STYLE *****************/
+
+.footer{
+    background-color: #252525;
+}
+
+.nav_footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-pills>li>a{
+    color: #ffff;
+    text-align: center;
+}
+
+.nav-pills>li>a:hover{
+    background-color: transparent;
+    color: #FAE0AC;
+
+}
+
+.nav-pills>li.active>a{
+    background-color: transparent;
+}
+
+.nav-pills>li.active>a:focus{
+background-color: transparent;
+}
+
+.social_icones{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items_nav_footer:hover{
+    text-decoration: none;
+}
+
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #FFFF;
+    font-size: 0.8em;
+}
+=======
 /***************** END OF HEADER STYLE *****************/
