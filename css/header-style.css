@@ -1,6 +1,31 @@
+/***************** GENERAL STYLE *****************/
+
+body{
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+h1{
+  text-align: center;
+  margin-top: 10vh;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 36px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+
+}
+
+/***************** END OF GENERAL STYLE *****************/
+
+
 /***************** HEADER STYLE *****************/
-
-
 
 /* General - Fixed position */
 #kodakMenu{
@@ -110,6 +135,7 @@
 }
 
 /***************** END OF HEADER STYLE *****************/
+
 
 /***************** FOOTER STYLE *****************/
 
