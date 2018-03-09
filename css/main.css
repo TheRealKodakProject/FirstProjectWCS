@@ -1,60 +1,142 @@
-/*CSS Pierre*/
+/* General CSS */
+
+.whitespace-mg {
+  margin-top: 100px;
+}
 
 .carousel-caption .btn {
-    /* Button */
-    position: relative;
-    bottom: 5vw;
-    background: rgba(255, 255, 255, 1);
-    width: 10vw;
-    height: 4vw;
-    /*Text button*/
-    font-family: 'Cinzel', serif;
-    font-size: 2vw;
-    color: rgba(0, 0, 0, 1);
-    vertical-align: middle;
-    text-align: center;
+  /* Button */
+  position: relative;
+  bottom: 5vw;
+  background: rgba(255, 255, 255, 1);
+  width: 10vw;
+  height: 4vw;
+  /*Text button*/
+  font-family: "Cinzel", serif;
+  font-size: 2vw;
+  color: rgba(0, 0, 0, 1);
+  vertical-align: middle;
+  text-align: center;
 }
 
 #carousel-controls .glyphicon {
-    font-size: 2vw;
-    color: rgba(255, 255, 255, 1);
+  font-size: 2vw;
+  color: rgba(255, 255, 255, 1);
 }
 
 .item .glyphicon {
-    font-size: 5vw;
-    color: rgba(255, 255, 255, 1);
-    border-bottom: solid white;
-    margin-bottom: 2vw;
+  font-size: 5vw;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: solid white;
+  margin-bottom: 2vw;
 }
 
-/* Css Edouard : Citation / Background / About Me */
+/*Citation / Background / About Me */
 
 .citation {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .signature {
-    padding-right: 20%;
-    text-align: right;
+  padding-right: 20%;
+  text-align: right;
 }
 
 .container-fluid {
-    padding: 0px;
+  padding: 0px;
 }
 
 .background_1 {
-    height: 450px;
-    background: url("../img/eiffel-tower-bg.jpg") no-repeat center fixed;
+  height: 450px;
+  background: url("../img/historique5.jpg") no-repeat center fixed;
 }
 
 .about_me {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .background_2 {
-    height: 450px;
-    background: url("../img/moderne3.jpg") no-repeat center fixed;
+  height: 450px;
+  background: url("../img/historique6.jpg") no-repeat center fixed;
+}
+
+/* Theme Chooser */
+
+.theme-ct {
+  padding: 0;
+  height: 550px;
+}
+
+.theme-ct img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.theme-ct:hover {
+ 
+
+}
+
+.overlay-theme {
+  position: absolute;
+  bottom: 90%;
+  background-color: #ef0d33;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease-in-out;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.theme-ct:hover .overlay-theme {
+  top: 0;
+  height: 10%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Form */
+
+.formulaire {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.btn {
+  width: 100%;
+}
+
+span {
+    color: #ef0d33;
+}
+
+.btn-default:hover {
+  color: #ffff;
+  background-color: #252525;
+  border-color: #adadad;
+}
+
+.form-control:focus {
+  border-color: #252525;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.075), 0 0 12px rgba(0, 0, 0, 0.6);
 }
