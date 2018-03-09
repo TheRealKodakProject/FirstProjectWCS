@@ -1,12 +1,11 @@
-.thumbnail {
-    min-height:100%;
-    border:none;
-    
-}
-   
 h2 {
     font-size:3em;
     font-weight: bold;
-    text-align: center;
+    line-height: 1em;
+    text-align: left;
     margin: 50px 0;
+    border-bottom: 2px solid #ef0d33;
+}
+.thumbnail {
+    border: none;
 }
