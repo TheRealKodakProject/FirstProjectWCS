@@ -9,4 +9,3 @@ function closeNav() {
 }
 
 /* End of navigation menu */
-

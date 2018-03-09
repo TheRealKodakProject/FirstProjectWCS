@@ -1,11 +1,11 @@
-.img-thb , .img-thb-main {
-    margin-bottom: 25px;
-    width: 100%;
-    border: 2px solid black;
-}
-
-
 h2 {
-    text-align: center;
-    margin-bottom: 25px;
+    font-size:3em;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: left;
+    margin: 50px 0;
+    border-bottom: 2px solid #ef0d33;
+}
+.thumbnail {
+    border: none;
 }
