@@ -19,23 +19,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
 
 </head>
 
 <body>
-
+    <header>
+        <div id="kodakMenu">
+            <div id="kodakLogo">
+                <a href="#">KodaK</a>
+            </div>
+            <div id="kodakBurger">
+                <a href="#" title="Burger button" class="openBtn" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="kodakNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT ME</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="#">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container-fluid">
-        <h2>Monuments historiques</h2>
+        <h1>Gallery</h1>
+        <h2>The Old Paris</h2>
+        <hr>
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="https://placeholder.com">
-                        <img src="img/historique2.jpg" class="img-responsive" alt="">
+                    <a href="#">
+                        <img src="img/historique7.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="caption">
-                        <h4>Thumbnail label</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt
-                            minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            velit magna gravida nunc, et posuere est mauris nec lacus. Nullam malesuada nec tellus ac rhoncus.
+                            Sed ut elementum diam, non mattis odio. Pellentesque et nisi quis dolor sodales rhoncus ut ut
+                            erat. Curabitur ac convallis quam. Cras non risus augue. Phasellus mattis vestibulum accumsan.
+                            Vestibulum vehicula est sed nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
                     </div>
                 </div>
             </div>
@@ -43,25 +71,23 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/historique2.jpg" class=" img-responsive">
+                            <a href="#">
+                                <img src="img/historique1.jpg" class=" img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
+                            <a href="#">
                                 <img src="img/historique2.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Titile</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
@@ -69,25 +95,23 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/historique2.jpg" class="img-responsive">
+                            <a href="#">
+                                <img src="img/historique3.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/historique2.jpg" class="img-responsive">
+                            <a href="#">
+                                <img src="img/historique4.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
@@ -96,88 +120,98 @@
         </div>
     </div>
     <div class="container-fluid">
-            <h2>Moderne Style</h2>
-            <div class="col-md-6 col-xs-12">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/moderne5.jpg" class="img-responsive">
-                            </a>
-                            <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/moderne5.jpg" class="img-responsive">
-                            </a>
-                            <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            </div>
+        <h2>The New Paris</h2>
+        <hr>
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="img/moderne1.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/moderne5.jpg" class="img-responsive">
-                            </a>
-                            <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/moderne5.jpg" class="img-responsive">
-                            </a>
-                                <div class="caption">
-                                    <h4>Thumbnail label</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                        sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="img/moderne2.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-xs-12" id="bigsize">
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="https://placeholder.com">
-                            <img src="img/moderne5.jpg" class="img-responsive">
+                        <a href="#">
+                            <img src="img/moderne3.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt
-                                minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="img/moderne6.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    <div class="container-fluid">
-        <h2>Parc</h2>
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="https://placeholder.com">
-                        <img src="img/nature1.jpg" class="image-responsive" alt="">
+                    <a href="#">
+                        <img src="img/moderne5.jpg" class="img-responsive">
                     </a>
                     <div class="caption">
-                        <h4>Thumbnail label</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt
-                            minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            velit magna gravida nunc, et posuere est mauris nec lacus. Nullam malesuada nec tellus ac rhoncus.
+                            Sed ut elementum diam, non mattis odio. Pellentesque et nisi quis dolor sodales rhoncus ut ut
+                            erat. Curabitur ac convallis quam. Cras non risus augue. Phasellus mattis vestibulum accumsan.
+                            Vestibulum vehicula est sed nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h2>The Green Paris</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" id="bigsize">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="img/nature8.jpg" class="image-responsive" alt="">
+                    </a>
+                    <div class="caption">
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            velit magna gravida nunc, et posuere est mauris nec lacus. Nullam malesuada nec tellus ac rhoncus.
+                            Sed ut elementum diam, non mattis odio. Pellentesque et nisi quis dolor sodales rhoncus ut ut
+                            erat. Curabitur ac convallis quam. Cras non risus augue. Phasellus mattis vestibulum accumsan.
+                            Vestibulum vehicula est sed nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
                     </div>
                 </div>
             </div>
@@ -185,25 +219,23 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/nature1.jpg" class="img-responsive">
+                            <a href="#">
+                                <img src="img/nature3.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/nature1.jpg" class="img-responsive">
+                            <a href="#">
+                                <img src="img/nature5.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
@@ -211,25 +243,23 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/nature1.jpg" class="img-responsive">
+                            <a href="#">
+                                <img src="img/nature6.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="https://placeholder.com">
-                                <img src="img/nature1.jpg" class="img-responsive">
+                            <a href="#">
+                                <img src="img/nature7.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
@@ -238,30 +268,29 @@
         </div>
     </div>
     <div class="container-fluid">
-        <h2>Miscellaneous</h2>
+        <h2>The Unusual</h2>
+        <hr>
         <div class="col-md-6 col-xs-12">
             <div class="row">
                 <div class="col-md-6 col-xs-6">
                     <div class="thumbnail">
-                        <a href="https://placeholder.com">
-                            <img src="img/insolite3.jpg" class="img-responsive">
+                        <a href="#">
+                            <img src="img/misc7.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="https://placeholder.com">
-                            <img src="img/insolite3.jpg" class="img-responsive">
+                        <a href="#">
+                            <img src="img/misc6.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
@@ -269,26 +298,24 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="https://placeholder.com">
-                            <img src="img/insolite3.jpg" class="img-responsive">
+                        <a href="#">
+                            <img src="img/misc5.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="https://placeholder.com">
-                            <img src="img/insolite3.jpg" class="img-responsive">
+                        <a href="#">
+                            <img src="img/misc4.jpg" class="img-responsive">
                         </a>
-                            <div class="caption">
-                                <h4>Thumbnail label</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus
-                                    sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            </div>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -296,13 +323,19 @@
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="https://placeholder.com">
-                        <img src="img/insolite3.jpg" class="img-responsive">
+                    <a href="#">
+                        <img src="img/misc2.jpg" class="img-responsive">
                     </a>
                     <div class="caption">
-                        <h4>Thumbnail label</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt
-                            minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            velit magna gravida nunc, et posuere est mauris nec lacus. Nullam malesuada nec tellus ac rhoncus.
+                            Sed ut elementum diam, non mattis odio. Pellentesque et nisi quis dolor sodales rhoncus ut ut
+                            erat. Curabitur ac convallis quam. Cras non risus augue. Phasellus mattis vestibulum accumsan.
+                            Vestibulum vehicula est sed nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
                     </div>
                 </div>
             </div>
