@@ -1,132 +1,144 @@
 /***************** GENERAL STYLE *****************/
 
-body{
+body {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   text-align: justify;
   line-height: 1.7;
 }
 
-h1{
+hr {
+  width: 75px;
+  height: 1px;
+  background-color: #252525;
+  border-top: none;
+}
+
+h1 {
   text-align: center;
   margin-top: 10vh;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   font-size: 36px;
 }
 
-h2{
+h2 {
   text-align: center;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
+}
 
+.whitespace-mg {
+  margin-top: 100px;
 }
 
 /***************** END OF GENERAL STYLE *****************/
 
-
 /***************** HEADER STYLE *****************/
 
 /* General - Fixed position */
-#kodakMenu{
-	position: fixed;
-	width: 100%;
-	top:0;
-	background-color: #252525;
-	display: block;
-	height: 60px;
-	padding-left: 0px;
-	z-index: 20;
+#kodakMenu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ff6858;
+  display: block;
+  height: 60px;
+  padding-left: 0px;
+  z-index: 20;
 }
 
 /* Logo */
-#kodakLogo{
-	position: absolute;
-	line-height: 60px;
-	width: 100%;
-	text-align: center;
-	font-family: 'Didact Gothic', sans-serif;
-	font-size: 4vh;
+#kodakLogo {
+  position: absolute;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 4vh;
 }
 
-#kodakLogo a{
-	color: #F9F8F6;
+#kodakLogo a {
+  color: #f9f8f6;
 }
 
-#kodakLogo a:hover{
-	text-decoration:none;
+#kodakLogo a:hover {
+  text-decoration: none;
 }
 
 /* Navigation - open btn */
-.openBtn{
-	font-size: 30px;
-	cursor: pointer;
-	position: absolute;
-	top:0;
-	right:0;
-	margin-right: 15px;
-	line-height:60px;
-	color: #ef0d33;
+.openBtn {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  line-height: 60px;
+  color: #f9f8f6;
 }
 
-.openBtn:hover{
-	text-decoration: none;
-	color: #F9F8F6;
+.openBtn:hover {
+  text-decoration: none;
+  color: #f9f8f6;
 }
 
 /* Navigation - menu */
 .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #252525;
-    overflow-x: hidden;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #252525;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.overlay>a{
-	padding-top: -15px;
+.overlay > a {
+  padding-top: -15px;
 }
 
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #F9F8F6;
-    display: block;
-    transition: 0.3s;
-		font-family: 'Didact Gothic', sans-serif;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #f9f8f6;
+  display: block;
+  transition: 0.3s;
+  font-family: "Didact Gothic", sans-serif;
 }
 
-.overlay a:hover, .overlay a:focus {
-    color: #FAE0AC;
+.overlay a:hover,
+.overlay a:focus {
+  color: #ff6858;
 }
 
 /* Navigation - close btn */
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
-.overlay .closebtn:hover{
-	color: #F9F8F6;
+.overlay .closebtn:hover {
+  color: #f9f8f6;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+  .overlay a {
+    font-size: 20px;
+  }
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
@@ -136,57 +148,53 @@ h2{
 
 /***************** END OF HEADER STYLE *****************/
 
-
 /***************** FOOTER STYLE *****************/
 
-.footer{
-    background-color: #252525;
+.footer {
+  background-color: #252525;
 }
 
-.nav_footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
+.nav_footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-pills>li>a{
-    color: #ffff;
-    text-align: center;
+.nav-pills > li > a {
+  color: #ffff;
+  text-align: center;
 }
 
-.nav-pills>li>a:hover{
-    background-color: transparent;
-    color: #FAE0AC;
-
+.nav-pills > li > a:hover {
+  background-color: transparent;
+  color: #fae0ac;
 }
 
-.nav-pills>li.active>a{
-    background-color: transparent;
+.nav-pills > li.active > a {
+  background-color: transparent;
 }
 
-.nav-pills>li.active>a:focus{
-background-color: transparent;
+.nav-pills > li.active > a:focus {
+  background-color: transparent;
 }
 
-.social_icones{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-around;
+.social_icones {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.items_nav_footer:hover{
-    text-decoration: none;
+.items_nav_footer:hover {
+  text-decoration: none;
 }
 
-
-
-.copyright{
-    display: flex;
-    justify-content: center;
-    color: #FFFF;
-    font-size: 0.8em;
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  font-size: 0.8em;
 }
-=======
+
 /***************** END OF HEADER STYLE *****************/

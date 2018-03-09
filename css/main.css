@@ -1,9 +1,5 @@
 /* General CSS */
 
-.whitespace-mg {
-  margin-top: 100px;
-}
-
 .carousel-caption .btn {
   /* Button */
   position: relative;
@@ -33,10 +29,6 @@
 
 /*Citation / Background / About Me */
 
-h2{
-    border-bottom: solid 2px #ff0000;
-}
-
 .citation {
   text-align: center;
   padding-top: 100px;
@@ -62,9 +54,9 @@ h2{
   padding-bottom: 100px;
 }
 
-.photo{
-    display: flex;
-    justify-content: center;
+.photo {
+  display: flex;
+  justify-content: center;
 }
 
 .background_2 {
@@ -85,11 +77,10 @@ h2{
   object-fit: cover;
 }
 
-
 .overlay-theme {
   position: absolute;
   bottom: 90%;
-  background-color: #ef0d33ab;
+  background-color: #ff6858;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -98,7 +89,6 @@ h2{
   right: 0;
   bottom: 0;
   left: 0;
-
 }
 
 .theme-ct:hover .overlay-theme {
@@ -125,30 +115,29 @@ h2{
   padding-bottom: 70px;
 }
 
+
+.form {
+  padding-top: 20px;
+}
+
 .btn {
   width: 100%;
+  color: #ff6858;
+  border: 2px solid #ff6858;
 }
-
-.form{
-    padding-top: 20px;
-}
-
-.btn{
-    width: 100%;
 
 span {
-    color: #ef0d33;
-
+  color: #ff6858;
 }
 
 .btn-default:hover {
   color: #ffff;
-  background-color: #252525;
-  border-color: #adadad;
+  background-color: #ff6858;;
+ border: 2px solid #ff6858;;
 }
 
 .form-control:focus {
-  border-color: #252525;
+  border-color: #ff6858;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
