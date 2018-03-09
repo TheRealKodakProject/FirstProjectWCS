@@ -22,28 +22,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/header-style.css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
-
+    
 </head>
 
 <body>
     <header>
-        <div id="kodakMenu">
-            <div id="kodakLogo">
-                <a href="#">KodaK</a>
-            </div>
-            <div id="kodakBurger">
-                <a href="#" title="Burger button" class="openBtn" onclick="openNav()">&#9776;</span>
-            </div>
-            <div id="kodakNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <a href="#">HOME</a>
-                    <a href="#">ABOUT ME</a>
-                    <a href="gallery.html">GALLERY</a>
-                    <a href="#">CONTACT</a>
+            <div id="kodakMenu">
+                    <div id="kodakLogo">
+                        <a href="#">KodaK</a>
+                    </div>
+                    <div id="kodakBurger">
+                        <a href="#" title="Burger button" class="openBtn" onclick="openNav()">&#9776;</span>
+                    </div>
+                    <div id="kodakNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="index.html">HOME</a>
+                            <a href="aboutMe.html">ABOUT ME</a>
+                            <a href="gallery.html">GALLERY</a>
+                            <a href="#contact-me">CONTACT</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
     </header>
     <div class="container-fluid">
         <h1>Gallery</h1>
@@ -343,13 +343,37 @@
         </div>
     </div>
 
-
-
-
-
+    <div class="container-fluid footer">
+        <div class="container nav_footer">
+            <div class="row">
+                <div class="">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li role="presentation">
+                            <a href="#">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Profile</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Messages</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social_icones">
+                    <a href="#" class="icon-facebook2 items_nav_footer"></a>
+                    <a href="#" class="icon-instagram items_nav_footer"></a>
+                    <a href="#" class="icon-twitter items_nav_footer"></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2018 Kodak.com / All rights reserved
+                        <p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
 
-
+    <script src="js/kodak-script.js" type="text/javascript"></script>
 
 </body>
