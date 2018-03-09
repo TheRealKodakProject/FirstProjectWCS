@@ -33,6 +33,10 @@
 
 /*Citation / Background / About Me */
 
+h2{
+    border-bottom: solid 2px #ff0000;
+}
+
 .citation {
   text-align: center;
   padding-top: 100px;
@@ -56,6 +60,11 @@
 .about_me {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
 }
 
 .background_2 {
@@ -123,8 +132,16 @@
   width: 100%;
 }
 
+.form{
+    padding-top: 20px;
+}
+
+.btn{
+    width: 100%;
+
 span {
     color: #ef0d33;
+
 }
 
 .btn-default:hover {

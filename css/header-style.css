@@ -110,3 +110,57 @@
 }
 
 /***************** END OF HEADER STYLE *****************/
+
+/***************** FOOTER STYLE *****************/
+
+.footer{
+    background-color: #252525;
+}
+
+.nav_footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-pills>li>a{
+    color: #ffff;
+    text-align: center;
+}
+
+.nav-pills>li>a:hover{
+    background-color: transparent;
+    color: #FAE0AC;
+
+}
+
+.nav-pills>li.active>a{
+    background-color: transparent;
+}
+
+.nav-pills>li.active>a:focus{
+background-color: transparent;
+}
+
+.social_icones{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items_nav_footer:hover{
+    text-decoration: none;
+}
+
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #FFFF;
+    font-size: 0.8em;
+}
+=======
+/***************** END OF HEADER STYLE *****************/
