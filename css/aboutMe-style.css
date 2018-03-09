@@ -1,0 +1,72 @@
+/***************** ABOUT ME STYLE *****************/
+
+/* Mosaiq template */
+hr{
+  width: 75px;
+  height: 1px;
+  background-color: #252525;
+  border-top: none;
+}
+
+.mosaiq{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.diapo{
+  box-shadow: -10px 10px 0px -4px #2a2626;
+}
+
+
+.diapo img{
+  width: 100%;
+}
+
+.txtMosaiq h2, .orangeBanner h2{
+  margin-top: 0px;
+  font-size: 26px;;
+}
+
+.diapo, .txtMosaiq{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.txtMosaiq{
+  padding: 35px;
+}
+
+
+/* Orange banner style */
+.orangeBanner{
+  background-color:#FAE0AC;
+  padding: 50px;
+  margin: 20px 0 20px 0;
+}
+
+/* test color animation */
+.colorAnimation{
+  animation: colorAnimation 15s ease-in-out infinite both;
+  -webkit-animation: colorAnimation 15s ease-in-out infinite both;
+}
+
+@keyframes colorAnimation {
+  0% {
+      background-color: #FAE0AC;
+  }
+  25% {
+      background-color: #FCAA67;
+  }
+
+  50% {
+      background-color: #FCBF8D;
+  }
+  75% {
+      background-color: #E19B84;
+  }
+  100% {
+      background-color: #FAE0AC;
+  }
+}
+
+/***************** END OF ABOUT ME STYLE *****************/
