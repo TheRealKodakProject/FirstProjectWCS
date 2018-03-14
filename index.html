@@ -21,6 +21,7 @@
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/header-style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style_icones.css">
@@ -44,10 +45,10 @@
             <div id="kodakNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#">HOME</a>
-                    <a href="#">ABOUT ME</a>
+                    <a href="index.html">HOME</a>
+                    <a href="aboutMe.html">ABOUT ME</a>
                     <a href="gallery.html">GALLERY</a>
-                    <a href="#">CONTACT</a>
+                    <a href="#contact-me">CONTACT</a>
                 </div>
             </div>
         </div>
@@ -57,15 +58,8 @@
                     <img src="img/banner3.jpg" alt="Terrasse de café">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1></h1>
-                            <p>
-                                <a class="btn btn-lg btn-default" href="#" role="button">GALLERY</a>
-                            </p>
-                            <p>
-                                <a>
-                                    <span class="glyphicon glyphicon-chevron-down"></span>
-                                </a>
-                            </p>
+                            <a href="gallery.html"><button type="button" class="btn btn-default">Gallery</button></a>
+                            <a><span class="glyphicon glyphicon-chevron-down"></span></a>
                         </div>
                     </div>
                 </div>
@@ -73,14 +67,10 @@
                     <img src="img/banner1.jpg" alt="Paris">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>
-                                <a class="btn btn-lg btn-default" href="#" role="button">GALLERY</a>
-                            </h1>
-                            <p>
-                                <a>
-                                    <span class="glyphicon glyphicon-chevron-down"></span>
-                                </a>
-                            </p>
+                            <div class="carousel-caption">
+                                <a href="gallery.html"><button type="button" class="btn btn-default">Gallery</button></a>
+                                <a><span class="glyphicon glyphicon-chevron-down"></span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,14 +78,10 @@
                     <img src="img/banner2.jpg" alt="rue de seine">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>
-                                <a class="btn btn-lg btn-default" href="#" role="button">GALLERY</a>
-                            </h1>
-                            <p>
-                                <a>
-                                    <span class="glyphicon glyphicon-chevron-down"></span>
-                                </a>
-                            </p>
+                            <div class="carousel-caption">
+                                <a href="gallery.html"><button type="button" class="btn btn-default">Gallery</button></a>
+                                <a><span class="glyphicon glyphicon-chevron-down"></span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,21 +121,27 @@
     <div class="container about_me">
         <div class="row">
             <h2>About Me</h2>
+            <hr>
         </div>
         <div class="media">
             <div class="row">
-                <div class="col-sm-8 col-md-9 col-lg-10">
-                    <h4 class="media-heading">Edouard de Laage</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,    totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt    explicabo.
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia    consequuntur magni
-                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum  quia dolor
-                        sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore    et dolore
-                        magnam aliquam quaerat voluptatem.</p>
+                <div class="col-sm-12 col-md-3 photo">
+                    <img class="media-object" src="img/photograpphe.jpg" alt="Photographe">
                 </div>
-
-                <div class="col-sm-4 col-md-3 col-lg-2 photo">
-                        <img class="media-object" src="img/photograpphe.jpg" alt="Photographe">
+                <div class="col-sm-12 col-md-9">
+                    <h4 class="media-heading">Jean-Michel Foo-Bar</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+                        ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-1 col-xs-8 col-xs-offset-2">
+                        <a href="aboutMe.html"><button type="button" class="btn btn-default">Learn More</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,8 +156,12 @@
     <!-- Theme presentation -->
 
     <div class="container whitespace-mg">
+        <div class="row">
+            <h2>Theme selection</h2>
+            <hr>
+        </div>
         <div class="col-md-3 theme-ct">
-            <a href="#">
+            <a href="gallery.html#Old">
                 <img src="img/historique4.jpg" class="" alt="">
             </a>
             <div class="overlay-theme">
@@ -173,7 +169,7 @@
             </div>
         </div>
         <div class="col-md-3 theme-ct">
-            <a href="#">
+            <a href="gallery.html#Green">
                 <img src="img/nature1.png" class="" alt="...">
             </a>
             <div class="overlay-theme">
@@ -181,7 +177,7 @@
             </div>
         </div>
         <div class="col-md-3 theme-ct">
-            <a href="#">
+            <a href="gallery.html#New">
                 <img src="img/moderne2.jpg" class="" alt="...">
             </a>
             <div class="overlay-theme">
@@ -189,7 +185,7 @@
             </div>
         </div>
         <div class="col-md-3 theme-ct">
-            <a href="#">
+            <a href="gallery.html#Unusual">
                 <img src="img/misc2.jpg" class="" alt="...">
             </a>
             <div class="overlay-theme">
@@ -207,10 +203,13 @@
 
     <!-- Form -->
 
-    <div class="container formulaire">
+    <div class="container formulaire" id="contact-me">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-                <h2>Contact me<span>...</span></h2>
+                <h2>Contact me
+                    <span>...</span>
+                </h2>
+                <hr>
             </div>
         </div>
         <form>
@@ -260,9 +259,15 @@
             <div class="row">
                 <div class="">
                     <ul class="nav nav-pills nav-stacked">
-                        <li role="presentation"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">Profile</a></li>
-                        <li role="presentation"><a href="#">Messages</a></li>
+                        <li role="presentation">
+                            <a href="#">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Profile</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Messages</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="social_icones">
@@ -271,7 +276,8 @@
                     <a href="#" class="icon-twitter items_nav_footer"></a>
                 </div>
                 <div class="copyright">
-                    <p>&copy; 2018 Kodak.com / All rights reserved<p>
+                    <p>&copy; 2018 Kodak.com / All rights reserved
+                        <p>
                 </div>
             </div>
         </div>

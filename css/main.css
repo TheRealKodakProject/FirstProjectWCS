@@ -1,22 +1,19 @@
 /* General CSS */
 
-.whitespace-mg {
-  margin-top: 100px;
-}
-
 .carousel-caption .btn {
   /* Button */
   position: relative;
   bottom: 5vw;
-  background: rgba(255, 255, 255, 1);
-  width: 10vw;
+  background: rgba(255, 255, 255, 0.6);
+  width: 13vw;
   height: 4vw;
   /*Text button*/
-  font-family: "Cinzel", serif;
   font-size: 2vw;
   color: rgba(0, 0, 0, 1);
   vertical-align: middle;
   text-align: center;
+  border: none;
+  border-radius: 0px;
 }
 
 #carousel-controls .glyphicon {
@@ -25,17 +22,12 @@
 }
 
 .item .glyphicon {
-  font-size: 5vw;
+  font-size: 4vw;
   color: rgba(255, 255, 255, 1);
   border-bottom: solid white;
-  margin-bottom: 2vw;
 }
 
 /*Citation / Background / About Me */
-
-h2{
-    border-bottom: solid 2px #ff0000;
-}
 
 .citation {
   text-align: center;
@@ -62,18 +54,52 @@ h2{
   padding-bottom: 100px;
 }
 
-.photo{
-    display: flex;
-    justify-content: center;
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
+.photo .media-object {
+  border-radius: 100%;
+}
 .background_2 {
   height: 450px;
   background: url("../img/historique6.jpg") no-repeat center fixed;
 }
+.media a {
+  color: red;
+  text-align: center;
+}
+.media .btn {
+  width: 100%;
+  color: #ff6858;
+  border: 2px solid #ff6858;
+  margin-top: 50px;
+}
+
+.media span {
+  color: #ff6858;
+}
+
+.media .btn-default:hover {
+  color: #ffff;
+  background-color: #ff6858;;
+ border: 2px solid #ff6858;;
+}
+
+.media .form-control:focus {
+  border-color: #ff6858;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.075), 0 0 12px rgba(0, 0, 0, 0.6);
+}
 
 /* Theme Chooser */
-
+.whitespace-mg hr {
+  margin-bottom: 50px;
+}
 .theme-ct {
   padding: 0;
   height: 550px;
@@ -85,11 +111,10 @@ h2{
   object-fit: cover;
 }
 
-
 .overlay-theme {
   position: absolute;
   bottom: 90%;
-  background-color: #ef0d33ab;
+  background-color: rgba(255, 104, 88, 0.7);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -98,12 +123,17 @@ h2{
   right: 0;
   bottom: 0;
   left: 0;
-
 }
 
 .theme-ct:hover .overlay-theme {
   top: 0;
   height: 10%;
+}
+@media screen and (max-width: 1200px) {
+  .overlay-theme {
+    height: 10%;
+    background-color: rgba(255, 104, 88, 0.7);
+  }
 }
 
 .text {
@@ -125,30 +155,20 @@ h2{
   padding-bottom: 70px;
 }
 
-.btn {
-  width: 100%;
+
+.form {
+  padding-top: 20px;
 }
 
-.form{
-    padding-top: 20px;
-}
 
-.btn{
-    width: 100%;
 
 span {
-    color: #ef0d33;
-
+  color: #ff6858;
 }
 
-.btn-default:hover {
-  color: #ffff;
-  background-color: #252525;
-  border-color: #adadad;
-}
 
 .form-control:focus {
-  border-color: #252525;
+  border-color: #ff6858;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
