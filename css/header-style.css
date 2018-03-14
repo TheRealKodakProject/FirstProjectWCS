@@ -3,7 +3,7 @@
 body {
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  font-size: 14px;
+  font-size: 1.4em;
   letter-spacing: 1px;
   text-align: justify;
   line-height: 1.7;
@@ -20,12 +20,13 @@ h1 {
   text-align: center;
   margin-top: 10vh;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 36px;
+  font-size: 3em;
 }
 
 h2 {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
+  font-size: 2.2em;
 }
 
 .whitespace-mg {
@@ -147,7 +148,19 @@ h2 {
 }
 
 /***************** END OF HEADER STYLE *****************/
+/*Gobal*/
+.btn {
+  width: 100%;
+  color: #ff6858;
+  border: 2px solid #ff6858;
+}
 
+
+.btn-default:hover {
+  color: #ffff;
+  background-color: #ff6858;;
+ border: 2px solid #ff6858;;
+}
 /***************** FOOTER STYLE *****************/
 
 .footer {
