@@ -13,6 +13,7 @@
   vertical-align: middle;
   text-align: center;
   border: none;
+  border-radius: 0px;
 }
 
 #carousel-controls .glyphicon {
@@ -21,10 +22,9 @@
 }
 
 .item .glyphicon {
-  font-size: 5vw;
+  font-size: 4vw;
   color: rgba(255, 255, 255, 1);
   border-bottom: solid white;
-  margin-bottom: 2vw;
 }
 
 /*Citation / Background / About Me */
