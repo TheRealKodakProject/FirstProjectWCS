@@ -1,5 +1,78 @@
-
-
 .thumbnail {
     border: none;
+}
+
+.img-responsive {
+  transition: 0.3s;
+}
+
+/* zoom on pictures */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 30;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-dialog {
+  width: 100%;
+  vertical-align: middle;
+  margin:auto;
+}
+
+.modal:target {
+  display: block;
+}
+
+.modal-content {
+  text-align: center;
+  display: block;
+  width: 100%;
+  animation-name: zoom;
+  animation-duration: 0.5s;
+  background-color: rgba(0,0,0,0.9);
+}
+
+@keyframes zoom {
+  from{transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.imgZoomee {
+  width: 80%;
+}
+
+.close{
+  position: absolute;
+  top:-35px;
+  right: 35px;
+  color: rgba(249,248,246,1);
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+  .modal-content{
+    width: 100%;
+  }
+  .modal{
+    padding-top: 100px;
+  }
+  .close{
+    top:-60px;
+  }
 }

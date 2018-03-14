@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Gallery - Kodak</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,9 +18,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="header-style.css">
+    <link rel="stylesheet" href="gallery-test-css2.css">
+    <link rel="stylesheet" href="css/style_icones.css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
 
 </head>
@@ -52,7 +53,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="#">
+                    <a href="#galleryModal1">
                         <img src="img/historique7.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="caption">
@@ -66,53 +67,98 @@
                             varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
                             lacus. </p>
                     </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal1" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <a href="#Old" class="close">&times;</a>
+                          <img src="img/historique7.jpg" class="imgZoomee">
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="#">
-                                <img src="img/historique1.jpg" class=" img-responsive">
+                        <div class="thumbnail imgAZoomer">
+                            <a href="#galleryModal2">
+                                <img src="img/historique1.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Thumbnail label</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
+                            <!-- The Modal test -->
+                            <div id="galleryModal2" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Old" class="close">&times;</a>
+                                  <img src="img/historique1.jpg" class="imgZoomee">
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal3">
                                 <img src="img/historique2.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Titile</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
+                            <!-- The Modal test -->
+                            <div id="galleryModal3" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Old" class="close">&times;</a>
+                                  <img src="img/historique2.jpg" class="imgZoomee">
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal4">
                                 <img src="img/historique3.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Title</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
+                            <!-- The Modal test -->
+                            <div id="galleryModal4" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Old" class="close">&times;</a>
+                                  <img src="img/historique3.jpg" class="imgZoomee">
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal5">
                                 <img src="img/historique4.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Title</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal5" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Old" class="close">&times;</a>
+                                  <img src="img/historique4.jpg" class="imgZoomee">
+                                </div>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -127,23 +173,41 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal6">
                             <img src="img/moderne1.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal6" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#New" class="close">&times;</a>
+                              <img src="img/moderne1.jpg" class="imgZoomee">
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal7">
                             <img src="img/moderne2.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal7" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#New" class="close">&times;</a>
+                              <img src="img/moderne2.jpg" class="imgZoomee">
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -151,23 +215,41 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal8">
                             <img src="img/moderne3.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal8" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#New" class="close">&times;</a>
+                              <img src="img/moderne3.jpg" class="imgZoomee">
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal9">
                             <img src="img/moderne6.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal9" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#New" class="close">&times;</a>
+                              <img src="img/moderne6.jpg" class="imgZoomee">
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -176,7 +258,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="#">
+                    <a href="#galleryModal10">
                         <img src="img/moderne5.jpg" class="img-responsive">
                     </a>
                     <div class="caption">
@@ -190,6 +272,15 @@
                             varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
                             lacus. </p>
                     </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal10" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <a href="#New" class="close">&times;</a>
+                          <img src="img/moderne5.jpg" class="imgZoomee">
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,7 +291,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="#">
+                    <a href="#galleryModal11">
                         <img src="img/nature8.jpg" class="image-responsive" alt="">
                     </a>
                     <div class="caption">
@@ -214,29 +305,56 @@
                             varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
                             lacus. </p>
                     </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal11" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <a href="#Green" class="close">&times;</a>
+                          <img src="img/nature8.jpg" class="imgZoomee">
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal12">
                                 <img src="img/nature3.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Title</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal12" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Green" class="close">&times;</a>
+                                  <img src="img/nature3.jpg" class="imgZoomee">
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal13">
                                 <img src="img/nature5.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Title</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal13" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Green" class="close">&times;</a>
+                                  <img src="img/nature5.jpg" class="imgZoomee">
+                                </div>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -244,23 +362,41 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal14">
                                 <img src="img/nature6.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Title</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal14" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Green" class="close">&times;</a>
+                                  <img src="img/nature6.jpg" class="imgZoomee">
+                                </div>
+                              </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="#galleryModal15">
                                 <img src="img/nature7.jpg" class="img-responsive">
                             </a>
                             <div class="caption">
                                 <h4>Photo Title</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal15" class="modal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <a href="#Green" class="close">&times;</a>
+                                  <img src="img/nature7.jpg" class="imgZoomee">
+                                </div>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -273,25 +409,43 @@
         <hr>
         <div class="col-md-6 col-xs-12">
             <div class="row">
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal16">
                             <img src="img/misc7.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal16" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#Unusual" class="close">&times;</a>
+                              <img src="img/misc7.jpg" class="imgZoomee">
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal17">
                             <img src="img/misc6.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal17" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#Unusual" class="close">&times;</a>
+                              <img src="img/misc6.jpg" class="imgZoomee">
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -299,23 +453,41 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal18">
                             <img src="img/misc5.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal18" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#Unusual" class="close">&times;</a>
+                              <img src="img/misc5.jpg" class="imgZoomee">
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <a href="#">
+                        <a href="#galleryModal19">
                             <img src="img/misc4.jpg" class="img-responsive">
                         </a>
                         <div class="caption">
                             <h4>Photo Title</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal19" class="modal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <a href="#Unusual" class="close">&times;</a>
+                              <img src="img/misc4.jpg" class="imgZoomee">
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -324,7 +496,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-12" id="bigsize">
                 <div class="thumbnail">
-                    <a href="#">
+                    <a href="#galleryModal20">
                         <img src="img/misc2.jpg" class="img-responsive">
                     </a>
                     <div class="caption">
@@ -337,6 +509,15 @@
                             risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
                             varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
                             lacus. </p>
+                    </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal20" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <a href="#Unusual" class="close">&times;</a>
+                          <img src="img/misc2.jpg" class="imgZoomee">
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -374,6 +555,6 @@
 
     <!-- Optional JavaScript -->
 
-    <script src="js/kodak-script.js" type="text/javascript"></script>
+    <script src="kodak-script-test.js" type="text/javascript"></script>
 
 </body>
