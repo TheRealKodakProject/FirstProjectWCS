@@ -41,18 +41,14 @@
   text-align: right;
 }
 
-.container-fluid {
-  padding: 0px;
-}
-
 .background_1 {
   height: 450px;
   background: url("../img/historique5.jpg") no-repeat center fixed;
 }
 
 .about_me {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 50px 0 70px 0;
+
 }
 
 .photo {
@@ -127,17 +123,10 @@
   top: 0;
   height: 10%;
 }
-@media screen and (max-width: 1200px) {
-  .overlay-theme {
-    height: 10%;
-    background-color: rgba(255, 104, 88, 0.7);
-  }
-}
-
 .text {
   white-space: nowrap;
   color: white;
-  font-size: 2em;
+  font-size: 1.3em;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -171,4 +160,25 @@ span {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.075), 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1200px) {
+  .overlay-theme {
+    height: 10%;
+    background-color: rgba(255, 104, 88, 0.7);
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+.carousel-inner {
+    display: none;
+  }
+
+  #bg-query {
+     background: url('../img/banner3.jpg');
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+  }
 }

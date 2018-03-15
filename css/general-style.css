@@ -18,7 +18,7 @@ hr {
 
 h1 {
   text-align: center;
-  margin-top: 10vh;
+  margin: 13vh 0 10vh 0;
   font-family: "Didact Gothic", sans-serif;
   font-size: 3em;
 }
@@ -34,7 +34,7 @@ h4 {
 }
 
 .whitespace-mg {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 /***************** END OF GENERAL STYLE *****************/
@@ -172,8 +172,7 @@ h4 {
 }
 
 .nav_footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 5px 0 5px 0;
   display: flex;
   justify-content: center;
 }
@@ -197,8 +196,7 @@ h4 {
 }
 
 .social_icones {
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 5px 0 5px 0;
   display: flex;
   justify-content: space-around;
 }
