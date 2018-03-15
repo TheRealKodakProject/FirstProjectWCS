@@ -8,7 +8,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 .icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -18,7 +17,6 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Enable Ligatures ================ */
   letter-spacing: 0;
   -webkit-font-feature-settings: "liga";
@@ -28,12 +26,10 @@
   font-feature-settings: "liga";
   -webkit-font-variant-ligatures: discretionary-ligatures;
   font-variant-ligatures: discretionary-ligatures;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-facebook2:before {
   content: "\66";
   font-family: icomoon;

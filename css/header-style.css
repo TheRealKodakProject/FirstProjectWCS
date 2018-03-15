@@ -3,7 +3,7 @@
 body {
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.9em;
   letter-spacing: 1px;
   text-align: justify;
   line-height: 1.7;
@@ -27,6 +27,10 @@ h2 {
   text-align: center;
   font-family: "Didact Gothic", sans-serif;
   font-size: 2.2em;
+}
+h4 {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.6em;
 }
 
 .whitespace-mg {

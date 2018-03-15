@@ -7,6 +7,7 @@
   background: rgba(255, 255, 255, 0.6);
   width: 13vw;
   height: 4vw;
+
   /*Text button*/
   font-size: 2vw;
   color: rgba(0, 0, 0, 1);
@@ -120,9 +121,6 @@
   height: 0;
   transition: 0.5s ease-in-out;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .theme-ct:hover .overlay-theme {
