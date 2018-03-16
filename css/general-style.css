@@ -1,7 +1,6 @@
 /***************** GENERAL STYLE *****************/
 
 body {
-  box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.9em;
   letter-spacing: 1px;
@@ -49,7 +48,7 @@ h4 {
   background-color: #ff6858;
   display: block;
   height: 60px;
-  padding-left: 0px;
+  padding: 0px;
   z-index: 20;
 }
 

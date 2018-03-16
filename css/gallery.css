@@ -6,6 +6,10 @@
   transition: 0.3s;
 }
 
+img:hover {
+  cursor: zoom-in;
+}
+
 /* zoom on pictures */
 
 .modal {
