@@ -1,0 +1,214 @@
+/***************** GENERAL STYLE *****************/
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.9em;
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+hr {
+  width: 75px;
+  height: 1px;
+  background-color: #252525;
+  border-top: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 13vh 0 10vh 0;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 2.2em;
+}
+h4 {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.6em;
+}
+
+.whitespace-mg {
+  margin-top: 70px;
+}
+
+/***************** END OF GENERAL STYLE *****************/
+
+/***************** HEADER STYLE *****************/
+
+/* General - Fixed position */
+#kodakMenu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ff6858;
+  display: block;
+  height: 60px;
+  padding: 0px;
+  z-index: 20;
+}
+
+/* Logo */
+#kodakLogo {
+  position: absolute;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 4vh;
+}
+
+#kodakLogo a {
+  color: #f9f8f6;
+}
+
+#kodakLogo a:hover {
+  text-decoration: none;
+}
+
+/* Navigation - open btn */
+.openBtn {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  line-height: 60px;
+  color: #f9f8f6;
+}
+
+.openBtn:hover {
+  text-decoration: none;
+  color: #f9f8f6;
+}
+
+/* Navigation - menu */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #252525;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay > a {
+  padding-top: -15px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #f9f8f6;
+  display: block;
+  transition: 0.3s;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #ff6858;
+}
+
+/* Navigation - close btn */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay .closebtn:hover {
+  color: #f9f8f6;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/***************** END OF HEADER STYLE *****************/
+/*Gobal*/
+.btn {
+  width: 100%;
+  color: #ff6858;
+  border: 2px solid #ff6858;
+}
+
+
+.btn-default:hover {
+  color: #ffff;
+  background-color: #ff6858;;
+ border: 2px solid #ff6858;;
+}
+/***************** FOOTER STYLE *****************/
+
+.footer {
+  background-color: #252525;
+}
+
+.nav_footer {
+  padding: 5px 0 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-pills > li > a {
+  color: #ffff;
+  text-align: center;
+}
+
+.nav-pills > li > a:hover {
+  background-color: transparent;
+  color: #ff6858;
+}
+
+.nav-pills > li.active > a {
+  background-color: transparent;
+}
+
+.nav-pills > li.active > a:focus {
+  background-color: transparent;
+}
+
+.social_icones {
+  padding: 5px 0 5px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.items_nav_footer:hover {
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  font-size: 0.8em;
+}
+
+/***************** END OF HEADER STYLE *****************/

@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Gallery - Foo-Bar</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/general-style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/style_icones.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="kodakMenu">
+            <div id="kodakLogo">
+                <a href="index.html">Jean-Michel Foo-Bar</a>
+            </div>
+            <div id="kodakBurger">
+                <a href="#" title="Burger button" class="openBtn" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="kodakNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="aboutMe.html">ABOUT ME</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="contact.html">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <h1 id="Old">Gallery</h1>
+        <h2>The Old Paris</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" id="bigsize">
+                <div class="thumbnail">
+                    <a href="#galleryModal1">
+                        <img src="img/historique7.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="caption">
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            velit magna gravida nunc, et posuere est mauris nec lacus. Nullam malesuada nec tellus ac rhoncus.
+                            Sed ut nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
+                    </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal1" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <a href="#Old" class="close">&times;</a>
+                                <img src="img/historique7.jpg" class="imgZoom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail imgAZoomer">
+                            <a href="#galleryModal2">
+                                <img src="img/historique1.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Thumbnail label</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal test -->
+                            <div id="galleryModal2" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Old" class="close">&times;</a>
+                                        <img src="img/historique1.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal3">
+                                <img src="img/historique2.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal test -->
+                            <div id="galleryModal3" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Old" class="close">&times;</a>
+                                        <img src="img/historique2.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal4">
+                                <img src="img/historique3.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal test -->
+                            <div id="galleryModal4" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Old" class="close">&times;</a>
+                                        <img src="img/historique3.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal5">
+                                <img src="img/historique4.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal5" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Old" class="close">&times;</a>
+                                        <img src="img/historique4.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid whitespace-mg">
+        <h2 id="New">The New Paris</h2>
+        <hr>
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal6">
+                            <img src="img/moderne1.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsu elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal6" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#New" class="close">&times;</a>
+                                    <img src="img/moderne1.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal7">
+                            <img src="img/moderne2.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal7" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#New" class="close">&times;</a>
+                                    <img src="img/moderne2.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal8">
+                            <img src="img/moderne3.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal8" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#New" class="close">&times;</a>
+                                    <img src="img/moderne3.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal9">
+                            <img src="img/moderne6.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dowqc adipiscing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal9" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#New" class="close">&times;</a>
+                                    <img src="img/moderne6.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" id="bigsize">
+                <div class="thumbnail">
+                    <a href="#galleryModal10">
+                        <img src="img/moderne5.jpg" class="img-responsive">
+                    </a>
+                    <div class="caption">
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                           nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
+                    </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal10" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <a href="#New" class="close">&times;</a>
+                                <img src="img/moderne5.jpg" class="imgZoom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid whitespace-mg">
+        <h2 id="Green">The Green Paris</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" id="bigsize">
+                <div class="thumbnail">
+                    <a href="#galleryModal11">
+                        <img src="img/nature8.jpg" class="image-responsive" alt="">
+                    </a>
+                    <div class="caption">
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            velit magna gravida nunc, et posuere est mauris nec lacus. Nullam malesuada nec tellus ac rhoncus.
+                            Sed ut elementum diam, non mattis odio. Pellentesque et nisi quis dolor sodales rhoncus ut ut
+                            erat. Curabitur ac convallis quam. Cras non risus augue. Phasellus mattis vestibulum accumsan.
+                            Vestibulum vehicula est sed nulla cursus, a vestibulum turpis pellentesque. Fusce eu est eget
+                            risus venenatis porta. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
+                    </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal11" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <a href="#Green" class="close">&times;</a>
+                                <img src="img/nature8.jpg" class="imgZoom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal12">
+                                <img src="img/nature3.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal12" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Green" class="close">&times;</a>
+                                        <img src="img/nature3.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal13">
+                                <img src="img/nature5.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal13" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Green" class="close">&times;</a>
+                                        <img src="img/nature5.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal14">
+                                <img src="img/nature6.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal14" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Green" class="close">&times;</a>
+                                        <img src="img/nature6.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="#galleryModal15">
+                                <img src="img/nature7.jpg" class="img-responsive">
+                            </a>
+                            <div class="caption">
+                                <h4>Photo Title</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <!-- The Modal - zoom on the image -->
+                            <div id="galleryModal15" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <a href="#Green" class="close">&times;</a>
+                                        <img src="img/nature7.jpg" class="imgZoom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid whitespace-mg">
+        <h2 id="Unusual">The Unusual</h2>
+        <hr>
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal16">
+                            <img src="img/misc7.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal16" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#Unusual" class="close">&times;</a>
+                                    <img src="img/misc7.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal17">
+                            <img src="img/misc6.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal17" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#Unusual" class="close">&times;</a>
+                                    <img src="img/misc6.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal18">
+                            <img src="img/misc5.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal18" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#Unusual" class="close">&times;</a>
+                                    <img src="img/misc5.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#galleryModal19">
+                            <img src="img/misc4.jpg" class="img-responsive">
+                        </a>
+                        <div class="caption">
+                            <h4>Photo Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- The Modal - zoom on the image -->
+                        <div id="galleryModal19" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <a href="#Unusual" class="close">&times;</a>
+                                    <img src="img/misc4.jpg" class="imgZoom">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12" id="bigsize">
+                <div class="thumbnail">
+                    <a href="#galleryModal20">
+                        <img src="img/misc2.jpg" class="img-responsive">
+                    </a>
+                    <div class="caption">
+                        <h4>Photo Title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nisl non semper facilisis,
+                            a. Donec urna urna, consequat quis iaculis ac, placerat eget libero. Praesent
+                            varius egestas elit, vel fringilla arcu convallis at. Mauris a ultricies enim, porta ultricies
+                            lacus. </p>
+                    </div>
+                    <!-- The Modal - zoom on the image -->
+                    <div id="galleryModal20" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <a href="#Unusual" class="close">&times;</a>
+                                <img src="img/misc2.jpg" class="imgZoom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container nav_footer">
+            <div class="row">
+                <div class="">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li role="presentation">
+                            <a href="#">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Profile</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Messages</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social_icones">
+                    <a href="#" class="icon-facebook2 items_nav_footer"></a>
+                    <a href="#" class="icon-instagram items_nav_footer"></a>
+                    <a href="#" class="icon-twitter items_nav_footer"></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2018 Kodak.com / All rights reserved
+                        <p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="js/kodak-script.js" type="text/javascript"></script>
+</body>
